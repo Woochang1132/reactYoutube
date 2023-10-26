@@ -1,0 +1,182 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "vvhwWKAswXzK_pYhKW3KDhAX8lM",
+    "nextPageToken": "CAUQAA",
+    "regionCode": "KR",
+    "pageInfo": {
+        "totalResults": 19882,
+        "resultsPerPage": 5
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "3exRlwFdDkM8JgIwTrBb_lALKnw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "zZqxPozl2Ec"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-24T07:00:09Z",
+                "channelId": "UCEUYW6zm6KnUxPcwY1D8HsQ",
+                "title": "Surfing Massive Waves Waimea Bay (Jan 22, 2023)  4K",
+                "description": "What occurred on January 22, 2023, at Waimea Bay on the North Shore of Oahu is nothing short of historical. We're simply doing ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zZqxPozl2Ec/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zZqxPozl2Ec/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zZqxPozl2Ec/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Eimy’s Hawaii Happy life 🏄🏻",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-24T07:00:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "F7Menu7dSTR_YGQb4gBepTu7nEo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "iwmRYXRZi9o"
+            },
+            "snippet": {
+                "publishedAt": "2023-10-03T17:00:26Z",
+                "channelId": "UCjIuqG1hCxUdLLxOD_uR0vQ",
+                "title": "Surfing Rocky Point Opening Day 2023 (4K RAW)",
+                "description": "Filmed on October 2, 2023 at Rocky Point on the North Shore of Oahu in Hawai'i. Watch as local surfers surf Rocky Point.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/iwmRYXRZi9o/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/iwmRYXRZi9o/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/iwmRYXRZi9o/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Surfers of Hawaii",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-10-03T17:00:26Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "6MH1rXuK8ZvY4ldtMTmdwjgJ8M8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "BefTBGK62PY"
+            },
+            "snippet": {
+                "publishedAt": "2023-10-14T18:00:04Z",
+                "channelId": "UCjIuqG1hCxUdLLxOD_uR0vQ",
+                "title": "Just Another Morning On The North Shore (4K Raw)",
+                "description": "Just a normal morning on the North Shore of Oahu. Watch as the local boys surf their home breaks before the winter crowds start ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/BefTBGK62PY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/BefTBGK62PY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/BefTBGK62PY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Surfers of Hawaii",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-10-14T18:00:04Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "IvoqtcuI1tXQLzUZXVQm7pAbFLQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "bJpa_60UlNE"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-23T03:29:18Z",
+                "channelId": "UC4i3-yfVazfuqwoz71T79Sw",
+                "title": "The 2023 Eddie Aikau Big Wave Invitational at Waimea Bay",
+                "description": "World's most iconic big-wave event returns to Waimea Bay. WHAT ARE WE WATCHING? The word “unique” is thrown around a ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/bJpa_60UlNE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/bJpa_60UlNE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/bJpa_60UlNE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Surfline",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-23T03:29:18Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "k6qwi-z0xQwXfoGtxE0jq6x6H3Y",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "8bw727QLrFw"
+            },
+            "snippet": {
+                "publishedAt": "2023-10-21T06:00:08Z",
+                "channelId": "UCEUYW6zm6KnUxPcwY1D8HsQ",
+                "title": "Surfing Waimea Bay (Oct 18, 2023)  4k",
+                "description": "The 2023-24 North Shore Winter Season is off to an exciting start with the first XL WNW swell hitting Hawaii in the month of ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8bw727QLrFw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8bw727QLrFw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8bw727QLrFw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Eimy’s Hawaii Happy life 🏄🏻",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-10-21T06:00:08Z"
+            }
+        }
+    ]
+}
