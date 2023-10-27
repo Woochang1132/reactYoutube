@@ -10,7 +10,13 @@ export default function Videos() {
     const {isLoding, error, data:videos} =useQuery({
         queryKey :['videos', keyword] , 
         queryFn: async () => {return axios.get(`/videos/${keyword ? 'search' : 'popular'}.json`)
-        .then((res) => res.data.items);
+        .then((res) => res.data.items)
+        .catch((error) => {
+            console.log("error", error)
+        })
+        .finally(() => {
+            console.log("네트워크 통신 확인")
+        })
     }});
     return (
         <div>
