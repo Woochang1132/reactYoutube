@@ -7,7 +7,7 @@ import { search } from '../api/youtube';
 export default function Videos() {
     // 객체에 어떤 keyword가 있는 지 알 수 있다.
     const {keyword} = useParams();
-    const {isLoding, error, data:videos} =useQuery({
+    const {isLoding, error, data:videos} = useQuery({
         queryKey :['videos', keyword] , 
         queryFn: () => search(keyword) });
     return (
