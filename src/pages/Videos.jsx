@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom/dist';
 import VideoCard from '../components/VideoCard';
 import { search } from '../api/youtube';
 import FakeYoutube from '../api/fakeYoutube';
+import Youtube from '../api/fakeYoutube';
 
 export default function Videos() {
     // 객체에 어떤 keyword가 있는 지 알 수 있다.
@@ -11,7 +12,7 @@ export default function Videos() {
     const {isLoding, error, data:videos} = useQuery({
         queryKey :['videos', keyword] , 
         queryFn: () => {
-            const youtube = new FakeYoutube();
+            const youtube = new Youtube();
             return youtube.search(keyword);
         }});
     return (

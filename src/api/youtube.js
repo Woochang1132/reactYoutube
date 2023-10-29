@@ -14,9 +14,12 @@ export default class Youtube {
 
   async #searchBykeyword(keyword) {
     return this.httpsClient
-      .get(`search`, {
+      .get("search", {
         params: {
           part: "snippet",
+          maxResults: 25,
+          type: "video",
+          q: keyword,
         },
       })
       .then((res) => res.data.items)
@@ -30,8 +33,14 @@ export default class Youtube {
   }
 
   async #mostPopular() {
-    return axios
-      .get(`/videos/popular.json`)
+    return this.httpsClient
+      .get("videos", {
+        params: {
+          part: "snippet",
+          maxResults: 25,
+          chart: "mostPopular",
+        },
+      })
       .then((res) => res.data.items)
       .catch((error) => {
         console.log("error", error);
