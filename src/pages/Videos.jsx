@@ -13,13 +13,10 @@ export default function Videos() {
     const {youtube} = useYoutubeApi();
     const {isLoding, error, data:videos} = useQuery({
         queryKey :['videos', keyword] , 
-        queryFn: () => {
-             youtube.search(keyword);
+        queryFn: () => youtube.search(keyword)
              //const youtube = new FakeYoutube();
              //return youtube.search(keyword);
-             console.log(error)
-
-        }});
+        });
     return (
         <div>
             Videos {keyword ? `🖱${keyword}` : '🔥'}
