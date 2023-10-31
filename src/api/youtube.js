@@ -16,6 +16,24 @@ export default class Youtube {
     return keyword ? this.#searchBykeyword(keyword) : this.#mostPopular();
   }
 
+  async channelImageURL(id) {
+    return this.apiClient
+      .channels({ params: { part: "snippet", id: id } })
+      .then((res) => res.data.items[0].snippet.thumbnails.default.url);
+  }
+
+  async relatedVideos() {
+    return this.apiClient
+      .videos({
+        params: {
+          part: "snippet",
+          maxResults: 25,
+          chart: "mostPopular",
+        },
+      })
+      .then((res) => res.data.items);
+  }
+
   async #searchBykeyword(keyword) {
     return this.apiClient
       .search({
