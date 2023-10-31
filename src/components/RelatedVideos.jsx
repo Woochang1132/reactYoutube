@@ -8,15 +8,16 @@ export default function RelatedVideos() {
     const {isLoding, error, data:videos} = useQuery({
         queryKey :['related' ] , 
         queryFn: () => {
-            return youtube.relatedVideos()
-}});
-        return (
+            return youtube.relatedVideos()    
+            },staleTime: 1000 * 60 * 5});
+        
+            return (
         <>
             {isLoding && <p>Loding...</p>}
             {error && <p>Something is wrong</p>}
             {videos && 
                 <ul >
-                {videos.map(video => <VideoCard key={video.id} video={video}/>)}
+                {videos.map(video => <VideoCard key={video.id} video={video} type='list'/>)}
                 </ul>}
         </>
     );
